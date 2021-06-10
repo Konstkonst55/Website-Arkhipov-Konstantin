@@ -26,7 +26,7 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: 400;
-    font-size: 11px;
+    font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.1em;
     text-align: center;
@@ -42,7 +42,7 @@
     font-family: Revalia;
     font-style: normal;
     font-weight: 400;
-    font-size: 29px;
+    font-size: 48px;
     line-height: 60px;
     text-align: center;
     color: #34547A;
@@ -51,15 +51,19 @@
 .promo-wrap{
     display: flex;
     align-items: center;
+    margin-top: 80px;
+    margin-bottom: 210px;
 }
 
 .laptop{
     display: flex;
     justify-content: flex-start;
-    margin-left: 180px;
-    margin-top: 90px;
-    margin-bottom: 130px;
-    height: 190px;
+    margin-left: 120px;
+    height: 230px;
+}
+
+.design-text{
+margin-left: 130px;
 }
 
 .text-head{
@@ -67,7 +71,7 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 38px;
+    font-size: 48px;
     line-height: 79px;
     text-align: left;
     color: black;
@@ -77,10 +81,9 @@
     text-decoration: none;
     font-family: Roboto;
     font-style: normal;
-    margin-right: 50px;
     font-weight: 400;
-    margin-top: 20px;
-    font-size: 14px;
+    margin-top: 60px;
+    font-size: 16px;
     line-height: 26px;
     text-align: left;
     color: #727272;
@@ -89,7 +92,7 @@
 .type-me-btn{
     letter-spacing: 0.07cm;
     display: flex;
-    margin-top: 45px;
+    margin-top: 60px;
     border-style: none;
     background-color: #34547A;
     color:white;
@@ -108,18 +111,131 @@
 }
 
 .text-head-about-me{
-    margin-top: 100px;
+    margin-top: 119px;
+    font-size: 32px;
     text-align: center;
-}
 
-.text-about-me{
     text-decoration: none;
     font-family: Roboto;
     font-style: normal;
-    margin: 30px 550px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 26px;
+    font-weight: 500;
+    line-height: 79px;
+    color: black;
+}
+
+.text-about-me{
+    margin: 50px 520px;
     text-align: center;
-    color: #727272;
+}
+
+.center{
+    padding: 0 calc(50%-1920/2);
+}
+
+.projects{
+    margin-top: 100px;
+    padding: 100px;
+    background-color: #34547A;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.project-item{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.head-project-text{
+    line-height: 25px;
+    text-align: left;
+    font-size: 21px;
+    margin: 0px;
+    margin-left: 20px;
+    color:white;
+}
+
+.project-text{
+    margin: 0px;
+    color:white;
+}
+
+.skills{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 102px;
+}
+
+.my-skills-header{
+    margin-bottom: 50px;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.photoshop{
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.photoshop:hover{
+    font-size: 20px;
+    transition: 0.1s;
+}
+
+.my-skills-img{
+    margin-left: 150px;
+    display: inline-flex;
+    width: 555px;
+    height: 450px;
+}
+
+.work{
+    background-color: #EEEFF1;
+    padding-bottom: 100px;
+}
+
+.how-work-text{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.video-work{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.video-img{
+    margin-top: 7px;
+    width: 1110px;
+    height: 600px;
+}
+
+.card-item{
+    border-radius: 0px;
+    margin-top: 28px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.table-fig > img{
+    width: 379px;
+    height: 379px;
+}
+
+.table-fig > img:hover{
+    content: url(../img/Group\ 4\ \(1\).svg);
+}
+
+.table-item{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 1110px;
 }
