@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: #EEEFF1;
+    padding: 20px;
+    color: black;
+}
+
+.wrap{
+    max-width: 1110px;
+    margin: 0px auto;
+}
+
+.header-wrap{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-text{
+    margin: 21px;
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: black;
+}
+
+.header-text:hover{
+    color: #34547A;
+}
+
+.header-text-logo{
+    text-decoration: none;
+    font-family: Revalia;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 60px;
+    text-align: center;
+    color: #34547A;
+}
+
+.promo-wrap{
+    display: flex;
+    align-items: center;
+}
+
+.laptop{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 180px;
+    margin-top: 90px;
+    margin-bottom: 130px;
+    height: 190px;
+}
+
+.text-head{
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 79px;
+    text-align: left;
+    color: black;
+}
+
+.text{
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    margin-right: 50px;
+    font-weight: 400;
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: left;
+    color: #727272;
+}
+
+.type-me-btn{
+    letter-spacing: 0.07cm;
+    display: flex;
+    margin-top: 45px;
+    border-style: none;
+    background-color: #34547A;
+    color:white;
+    padding: 15px 30px 15px 30px;
+    border-radius: 10px;
+}
+
+.type-me-btn:hover{
+    background-color: #446b9b;
+    transition: 0.3s;
+}
+
+.type-me-btn:active{
+    background-color: #8fabce;
+    transition: 0.3s;
+}
+
+.text-head-about-me{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.text-about-me{
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    margin: 30px 550px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+}
