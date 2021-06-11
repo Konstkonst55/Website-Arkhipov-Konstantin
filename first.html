@@ -18,16 +18,16 @@
 
 <body>
     <header class="header">
-        <section class="wrap header-wrap">
+        <section id="start" class="wrap header-wrap">
             <nav class="nav-right">
                 <a class="header-text-logo" href="first.html">WD</a>
             </nav>
             <nav class="nav-left">
                 <a class="header-text" href="first.html">ГЛАВНАЯ</a>
-                <a class="header-text" href="first.html">ОБ АВТОРЕ</a>
-                <a class="header-text" href="first.html">РАБОТЫ</a>
-                <a class="header-text" href="first.html">ПРОЦЕСС</a>
-                <a class="header-text" href="first.html">КОНТАКТЫ</a>
+                <a class="header-text" href="#about-me">ОБ АВТОРЕ</a>
+                <a class="header-text" href="#proj">РАБОТЫ</a>
+                <a class="header-text" href="#process">ПРОЦЕСС</a>
+                <a class="header-text" href="#contacts">КОНТАКТЫ</a>
             </nav>
         </section>
     </header>
@@ -45,7 +45,7 @@
                     Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является
                     стандартной "рыбой" для текстов на латинице с начала XVI века.
                 </p>
-                <button class="type-me-btn text">
+                <button onclick="window.location.href='#contacts'" class="type-me-btn text">
                     НАПИСАТЬ МНЕ
                 </button>
             </div>
@@ -53,7 +53,7 @@
     </section>
 
     <main>
-        <section class="about-me">
+        <section id="about-me" class="about-me">
             <div>
                 <h2 class="text-head-about-me">
                     Обо мне
@@ -65,7 +65,7 @@
             </div>
         </section>
 
-        <section class="projects">
+        <section id="proj" class="projects">
             <div class="project-item">
                 <p class="project-img">
                     <img src="img/project.svg" alt="Project">
@@ -163,7 +163,7 @@
             </div>
         </section>
 
-        <section class="work">
+        <section id="process" class="work">
             <figure class="video-work">
                 <figcaption class="caption-how-work">
                     <h2 class="how-work-head text-head-about-me">
@@ -222,7 +222,7 @@
             </div>
         </section>
 
-        <section class="send-application">
+        <section id="contacts" class="send-application">
             <div class="send-application-text">
                 <h2 class="send-app-text-head text-head">
                     Хотите веб-сайт? <br>
@@ -234,21 +234,51 @@
             </div>
             <div class="input-form">
                 <form class="form">
-                    <input class="name-form text" type="text" id="name" name="user_name" value="Ваше имя" required>
-                    <input class="email-form text" type="email" id="mail" name="user_mail" value="Ваш E-Mail" required>
-                    <br>
+                    <div class="form-email-name">
+                        <input class="name-form text" type="text" id="name" name="user_name" placeholder="Ваше имя"
+                            required>
+                        <input class="email-form text" type="email" id="mail" name="user_mail" placeholder="Ваш E-Mail"
+                            required>
+                    </div>
+                    <textarea class="textarea-form text" id="msg" name="user_message" placeholder="Сообщение">
+                    </textarea>
+                    <button type="submit" class="send-btn type-me-btn text">
+                        ОТПРАВИТЬ
+                    </button>
                 </form>
-                <form class="form">
-                    <textarea class="textarea-form text" id="msg" name="user_message">Сообщение</textarea>
-                </form>
-            </div>
-            <div class="send-app-btn">
-                <button class="send-btn type-me-btn text" type="submit">
-                    ОТПРАВИТЬ
-                </button>
             </div>
         </section>
     </main>
+
+    <footer class="footer-wrap">
+        <section class="footer-sec">
+            <nav class="back">
+                <button onclick="window.location.href='#start'" class="btn-back-start text-head">
+                    <img src="img/arr-up.png" alt="^">
+                </button>
+            </nav>
+            <div class="footer-text-div">
+                <h3 class="footer-text-head text-head">
+                    Константин Архипов
+                </h3>
+                <p class="footer-text text">
+                    +7(923)-156-61-47 <br>
+                    (с) 2021. Все права защищены.
+                </p>
+            </div>
+            <article class="footer-article">
+                <a class="footer-link" href="https://vk.com/knstnarkhpv" class="footer-link">
+                    <img class="footer-link-img" src="img/VK-link.svg" alt="VK">
+                </a>
+                <a class="footer-link" href="https://t.me/konstkonst555" class="footer-link">
+                    <img class="footer-link-img" src="img/TG-link.svg" alt="Telegram">
+                </a>
+                <a class="footer-link" href="https://www.instagram.com/a_fruectkairndg/" class="footer-link">
+                    <img class="footer-link-img" src="img/INST-link.svg" alt="Instagram">
+                </a>
+            </article>
+        </section>
+    </footer>
 </body>
 
 </html>

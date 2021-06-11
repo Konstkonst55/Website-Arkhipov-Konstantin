@@ -295,14 +295,15 @@
 .form{
     display: flex;
     justify-content: center;
-
+    align-items: center;
+    flex-direction: column;
 }
 
 .textarea-form{
     width: 506px;
     height: 141px;
-    max-width: 540px;
-    max-height: 175px;
+    max-width: 506px;
+    max-height: 141px;
     font-size: 14px;
     color: #5F5D5D;
     margin-top: 0px;
@@ -335,15 +336,81 @@
     border-radius: 5px;
 }
 
-.send-app-btn{
+.send-btn{
+    margin-top: 0px;
     display: flex;
     justify-content: center;
     margin-top: 50px;
 }
 
-.send-btn{
-    margin-top: 0px;
+.footer-sec{
+    display: flex;
+    align-items: center;
 }
 
+.footer-wrap{
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    background-color: #34547A;
+}
+
+.footer-article{
+    margin-left: 757px;
+    display: inline-flex;
+}
+
+.footer-link-img{
+    width: 48px;
+    height: 48px; 
+}
+
+.footer-link{
+    padding: 10px;
+    margin-right: 22px;
+}
+
+.footer-link:hover{
+    border-radius: 10px;
+    background-color: #4c79b1;
+}
+
+.footer-text-head{
+    font-size: 21px;
+    line-height: 25px;
+    color: white;
+}
+
+.footer-text{
+    color: white;
+    font-size: 13px;
+    line-height: 21px;  
+    margin-top: 20px;
+}
+
+.btn-back-start{
+    padding: 30px;
+    background-color: #4c79b1;
+    border: none;
+    border-radius: 10px;
+    line-height: 30px;
+}
+
+.btn-back-start:hover{
+    background-color: #446b9b;;
+}
+
+.btn-back-start:active{
+    background-color: #8fabce;
+}
+
+.back{
+    margin-right: 30px;
+}
+
+::-webkit-scrollbar{
+    transition: 0.7s;
+}
 
 
