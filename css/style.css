@@ -183,7 +183,7 @@
 
 .photoshop:hover{
     font-size: 20px;
-    transition: 0.1s;
+    transition: 0.3s;
 }
 
 .my-skills-img{
@@ -220,7 +220,6 @@
 .card-item{
     border-radius: 0px;
     margin-top: 28px;
-    flex-direction: row;
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
@@ -398,19 +397,17 @@
 }
 
 .btn-back-start:hover{
-    background-color: #446b9b;;
+    background-color: #446b9b;
+    transition: 0.3s;
 }
 
 .btn-back-start:active{
     background-color: #8fabce;
+    transition: 0.3s;
 }
 
 .back{
     margin-right: 30px;
-}
-
-::-webkit-scrollbar{
-    transition: 0.7s;
 }
 
 
